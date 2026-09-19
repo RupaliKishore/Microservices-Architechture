@@ -2,6 +2,7 @@ package com.architechture.security;
 
 import com.architechture.dto.AuthInput;
 import com.architechture.dto.UserInput;
+import com.architechture.exception.EmailAlreadyExistsException;
 import com.architechture.model.AuthPayload;
 import com.architechture.model.User;
 import com.architechture.model.UserRole;
@@ -23,7 +24,7 @@ public class AuthService {
 
 
     public AuthPayload register(UserInput userInput) {
-        if (userRepository.existsByEmail(userInput.getEmail())) throw new RuntimeException("Email already exists");
+        if (userRepository.existsByEmail(userInput.getEmail())) throw new EmailAlreadyExistsException( userInput.getEmail());
 
         User user = new User();
         user.setName(userInput.getName());

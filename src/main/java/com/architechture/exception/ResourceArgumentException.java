@@ -2,8 +2,8 @@ package com.architechture.exception;
 
 public class ResourceArgumentException extends RuntimeException
 {
-    public ResourceArgumentException(String message, String id, Long aLong)
+    public ResourceArgumentException(String resource, String field, Object value)
     {
-        super(message);
+        super(resource + " not found with "+ field + ":"+ value);
     }
 }
