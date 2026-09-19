@@ -4,7 +4,6 @@ import com.architechture.dto.UserInput;
 import com.architechture.model.User;
 import com.architechture.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.webmvc.autoconfigure.WebMvcProperties;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
