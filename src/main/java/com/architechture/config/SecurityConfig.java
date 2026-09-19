@@ -3,7 +3,6 @@ package com.architechture.config;
 
 import com.architechture.security.JwtAutFilter;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.id.SequenceMismatchStrategy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
