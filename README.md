@@ -1,6 +1,12 @@
 [![Build and Test](https://github.com/RupaliKishore/Microservices-Architechture/actions/workflows/build.yml/badge.svg)](https://github.com/RupaliKishore/Microservices-Architechture/actions/workflows/build.yml)
 
 
+## 🌐 Live Demo
+
+- **GraphiQL UI:** https://microservices-architechture.onrender.com/graphiql
+- **GraphQL API:** https://microservices-architechture.onrender.com/graphql
+
+
 # Microservices-Architechture
 Spring Boot and GraphQL based Microservices Architecture — independent services, GraphQL API Gateway
 
